@@ -30,7 +30,6 @@
     scratch
     idle-highlight-mode
     neotree
-    deft
     window-number
 
     ;; Programming

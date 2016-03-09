@@ -3,7 +3,6 @@
 (require 'smartparens-config)
 (require 'rich-minority)
 (require 'smooth-scroll)
-(require 'deft)
 (require 'window-number)
 
 
@@ -100,14 +99,6 @@
 
 ;; Mode-specific scratch buffers
 (autoload 'scratch "scratch" nil t)
-
-;; Deft
-(setq deft-default-extension "md"
-      deft-extensions '("md" "org" "txt")
-      deft-directory "~/Google Drive/notes"
-      deft-auto-save-interval 0)
-(unless (file-exists-p deft-directory)
-  (make-directory deft-directory))
 
 ;; Select windows using M- and a number
 (window-number-meta-mode 1)
