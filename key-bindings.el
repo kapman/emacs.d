@@ -66,3 +66,6 @@
 
 ;; Scratch
 (global-set-key (kbd "C-x t") 'scratch)
+
+;; Kill entire line cursor is on
+(global-set-key (kbd "C-S-k") 'kill-whole-line)
