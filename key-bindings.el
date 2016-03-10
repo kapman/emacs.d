@@ -70,5 +70,8 @@
 ;; Kill entire line cursor is on
 (global-set-key (kbd "C-S-k") 'kill-whole-line)
 
+;; Open reference window
+(global-set-key (kbd "C-x C-1") 'refer-window)
+
 ;; Kill buffer without confirmation
 (global-set-key (kbd "C-x k") 'kill-this-buffer)
