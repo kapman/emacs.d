@@ -69,3 +69,6 @@
 
 ;; Kill entire line cursor is on
 (global-set-key (kbd "C-S-k") 'kill-whole-line)
+
+;; Kill buffer without confirmation
+(global-set-key (kbd "C-x k") 'kill-this-buffer)
