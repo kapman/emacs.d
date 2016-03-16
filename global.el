@@ -92,6 +92,7 @@
 
 ;; Start smooth-scrolling
 (smooth-scroll-mode t)
+(setq smooth-scroll/vscroll-step-size 6)
 (setq mouse-wheel-progressive-speed nil)
 (setq mouse-wheel-follow-mouse 't)
 (setq scroll-step 1)
