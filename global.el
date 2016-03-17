@@ -101,5 +101,14 @@
 ;; Mode-specific scratch buffers
 (autoload 'scratch "scratch" nil t)
 
+
 ;; Select windows using M- and a number
 (window-number-meta-mode 1)
+
+
+;; Sort buffers in ibuffer alphabetically
+(add-hook 'ibuffer-hook
+          (lambda ()
+            (ibuffer-vc-set-filter-groups-by-vc-root)
+            (unless (eq ibuffer-sorting-mode 'alphabetic)
+              (ibuffer-do-sort-by-alphabetic))))

@@ -31,6 +31,7 @@
     idle-highlight-mode
     neotree
     window-number
+    ibuffer-vc
 
     ;; Programming
     web-mode

@@ -75,3 +75,6 @@
 
 ;; Kill buffer without confirmation
 (global-set-key (kbd "C-x k") 'kill-this-buffer)
+
+;; Ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer)
