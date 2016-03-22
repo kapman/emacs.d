@@ -66,7 +66,7 @@
           (revert-buffer t t t)
           (setq list (cdr list))
           (setq buffer (car list))))))
-  (message "Refreshing open files"))
+  (message "Reverting open files"))
 
 
 (defun revert-buffer-no-confirm ()

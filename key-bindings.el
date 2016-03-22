@@ -5,6 +5,7 @@
 
 ;; Revert
 (global-set-key (kbd "C-c r") 'revert-buffer-no-confirm)
+(global-set-key (kbd "C-c C-r") 'revert-all-buffers)
 
 ;; Jumping
 (global-set-key (kbd "M-g") 'goto-line)
