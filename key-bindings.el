@@ -4,7 +4,7 @@
 (require 'neotree)
 
 ;; Revert
-(global-set-key (kbd "<f5>") 'revert-buffer)
+(global-set-key (kbd "C-c r") 'revert-buffer-no-confirm)
 
 ;; Jumping
 (global-set-key (kbd "M-g") 'goto-line)

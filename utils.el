@@ -69,6 +69,13 @@
   (message "Refreshing open files"))
 
 
+(defun revert-buffer-no-confirm ()
+  "Revert buffer without confirmation."
+  (interactive)
+  (revert-buffer t t)
+  (message "Reverting %s" (buffer-file-name)))
+
+
 (defun refer-window ()
   "Clear other windows, split current window vertically
  and set focus in the new frame"
